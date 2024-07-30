@@ -1,0 +1,64 @@
+/* variables */
+:root {
+  --primary: #ffc636;
+  --secondary: #0a0b5b;
+}
+/* reset : to change the default styles of browser */
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* base styles */
+body {
+  background-color: var(--secondary);
+  overflow-x: hidden; /* to hide the horizontal scrollbar */
+}
+.button {
+  background: none;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 2px solid #9893d8;
+  color: #f2f2f2;
+}
+/* fonts */
+@font-face {
+  font-family: "Rubik";
+  src: url("assets/fonts/Rubik-Regular.ttf");
+}
+
+/* mobile styles */
+
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+}
+
+/* large tablet and laptops styles */
+@media screen and (min-width: 960px) {
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+}

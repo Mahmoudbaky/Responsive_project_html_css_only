@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--------------------- Navigation section------------------------>
+    <nav class="site-nav grid">
+      <h1>cosmo junkie</h1>
+      <ul>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills"> Skills </a></li>
+        <li><a href="#contact"> Contact </a></li>
+      </ul>
+    </nav>
+    <!--------------------- welcome section------------------------>
+    <section id="welcome" class="grid">
+      <!--------------------- welcome text------------------------>
+      <div class="welcome-text">
+        <h2>
+          Space Enthusiast <br />
+          & javascript dev
+        </h2>
+        <p class="leading">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          reiciendis fugit ab quos porro quasi optio assumenda quae non labore
+          doloremque laborum, voluptatum beatae tempora tenetur! Corporis,
+          quibusdam laudantium. Delectus.
+        </p>
+        <a href="#portfolio" class="button">View my work </a>
+      </div>
+      <!--------------------- welcome image------------------------>
+      <div class="welcome-img">
+        <img src="assets/banner_image.png" alt="pic of planet" />
+      </div>
+    </section>
+
+    <!--------------------- protfolio section------------------------>
+    <section id="protfolio">
+      <h3>Some of my projects</h3>
+      <div class="projects grid">
+        <a href="">
+          <img src="assets/project_1.png" alt="project 1" />
+          <h4>project 1</h4>
+        </a>
+        <a href="">
+          <img src="assets/project_2.png" alt="project 2" />
+          <h4>project 2</h4>
+        </a>
+        <a href="">
+          <img src="assets/project_3.png" alt="project 3" />
+          <h4>project 3</h4>
+        </a>
+      </div>
+    </section>
+
+    <!--------------------- skills section------------------------>
+    <section id="skills">
+      <h3>My skills</h3>
+      <ul>
+        <li>
+          <img src="assets/comet_1.svg" alt="comet" />
+          <h4>JS</h4>
+        </li>
+        <li>
+          <img src="assets/comet_2.svg" alt="comet" />
+          <h4>React</h4>
+        </li>
+        <li>
+          <img src="assets/comet_3.svg" alt="comet" />
+          <h4>Tailwind</h4>
+        </li>
+        <li>
+          <img src="assets/comet_3.svg" alt="comet" />
+          <h4>Sql</h4>
+        </li>
+      </ul>
+    </section>
+
+    <!--------------------- contact section------------------------>
+    <section id="contact">
+      <h3>Get in touch</h3>
+      <p class="leading">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. At omnis.
+      </p>
+      <form>
+        <input type="text" name="NAME" />
+        <input type="email" name="EMAIL" />
+        <textarea placeholder="MESSAGE"></textarea>
+        <button class="button">Send Flare</button>
+      </form>
+    </section>
+
+    <!--------------------- footer section------------------------>
+    <footer>
+      <div class="grid">
+        <p class="copyright">copyright 2024 cosmo juncky</p>
+        <ul class="social">
+          <li>
+            <a href="">
+              <img src="assets/icon_fb.svg" alt="facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="assets/icon_tw.svg" alt="twitter" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
